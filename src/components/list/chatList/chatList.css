@@ -1,0 +1,92 @@
+.chatlist {
+  flex: 1;
+  overflow: scroll;
+      
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.searchBAR {
+  flex: 1;
+  background-color: rgba(114, 122, 208, 0.29);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.searchBAR input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  flex: 1;
+
+}
+
+.searchBAR img {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: end;
+
+}
+
+.add {
+  width: 30px;
+  height: 30px;
+  background-color: rgba(114, 122, 208, 0.29);
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid grey; /* Ensure border-bottom is added */
+
+}
+
+.items img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.items.unseen {
+  background-color: #518fee; /* Background color for unseen messages */
+}
+
+.items.seen {
+  background-color: transparent; /* Background color for seen messages */
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.texts span {
+   font-weight: 500;
+}  
+
+.texts p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.chatlist::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}

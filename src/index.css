@@ -1,0 +1,29 @@
+body{
+  background-image: url("/bg.jpg");
+  display: flex;
+   height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+  html{
+    scroll-behavior: smooth;
+  }
+}
+
+.container{
+  width: 90vw;
+  height: 90vh;
+ padding: 12px;
+  background-color: rgba(19, 19, 19, 0.745);
+  color: antiquewhite;
+  backdrop-filter: blur(19px) saturate(180%);
+  border-radius: 20px;
+  border: 1px solid rgba(181, 182, 180, 0.745);
+  display: flex;
+  
+}
+.loading{
+  padding: 50px;font-size: 35px;
+  border-radius: 10px;
+  background-color: rgba(27, 25, 25, 0.64);
+}

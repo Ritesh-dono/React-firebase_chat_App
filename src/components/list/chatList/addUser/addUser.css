@@ -1,0 +1,62 @@
+.adduser {
+    position: absolute;
+    height: max-content;
+    width: max-content;
+    padding: 20px;
+    background-color: rgba(26, 26, 56, 0.625);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+  .adduser form {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .adduser form input {
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+  }
+  
+  .adduser form button {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(0, 104, 240);
+    color: white;
+    cursor: pointer;
+  }
+  
+  .adduser .user {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .adduser .user .detail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .adduser .user .detail img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .adduser .user button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 104, 240);
+    color: white;
+    cursor: pointer;
+  }
+  

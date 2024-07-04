@@ -1,0 +1,70 @@
+.login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.login .item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.login .item form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.login .item form input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(27, 27, 68, 0.371);
+    color: white;
+    border-radius: 5px;
+}
+
+.login .item form label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+
+.login .item form label img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    opacity: 0.6;
+}
+
+.login .item form button {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    background-color: rgba(43, 43, 233, 0.907);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.login .item form button:disabled {
+    cursor: not-allowed;
+    background-color: rgba(49, 116, 240, 0.618);
+}
+
+.login .sep {
+    height: 80%;
+    width: 2px;
+    background-color: rgba(128, 128, 128, 0.341);
+}
