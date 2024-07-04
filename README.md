@@ -10,7 +10,8 @@ Currently, two official plugins are available:
 to install the node package manager
 
 #npm i zustand
-to manage state
-
+to manage state		
 #npm i toastify
 to push notification 
+ # npm start
+ to start the server
