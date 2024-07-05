@@ -15,3 +15,5 @@ to manage state
 to push notification 
  # npm start
  to start the server
+
+# This is a realtime chat app using firebase 
