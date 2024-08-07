@@ -1,4 +1,4 @@
-This is a realtime chat applicaation using react framework and firebase , user can Login nad logout with respective email and password ,user can send messages as well as images to the other user 
+This is a realtime chat application using react framework and firebase , user can Login nad logout with respective email and password ,user can send messages as well as images to the other user 
 # npm i
 to install the node package manager
 
